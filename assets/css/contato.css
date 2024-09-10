@@ -1,0 +1,161 @@
+.contato-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    width: 1204px;
+    height: 1322px;
+    background-color: #9173B0;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 129px;
+    padding-bottom: 47px;
+}
+
+.contato-group{
+    display: flex;
+    justify-content: center;
+}
+
+.contato-input{
+    display: flex;
+    flex-direction: column; 
+    margin: 30px 64px;
+}
+
+
+.contato-input label{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contato-input input{
+    width: 455px;
+    height: 54px;
+    border-radius: 26px;
+    border-width: 0;
+    font-size: 20px;
+    color: #312F2F;
+    margin-left: 22px;
+    margin-top: 4px;
+    font-family: "Libre Baskerville", system-ui;
+    font-weight: bold;
+}
+
+.contato-input-g{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+
+.contato-input-g label{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contato-input-g input{
+    width: 1055px;
+    height: 54px;
+    border-radius: 26px;
+    border-width: 0;
+    font-size: 20px;
+    color: #312F2F;
+    margin-left: 22px;
+    margin-top: 4px;
+    font-family: "Libre Baskerville", system-ui;
+    font-weight: bold;
+}
+
+.contato-group-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.contato-input select{
+    background: url('../assets/images/contato/seta.svg') 93.5% 50% no-repeat;
+    width: 455px;
+    height: 54px;
+    border-radius: 26px;
+    border-width: 0;
+    font-size: 20px;
+    color: #312F2F;
+    padding-left: 21px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", system-ui;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.contato-input option{
+    font-size: 20px;
+    color: #312F2F;
+}
+
+.contato-input textarea{
+    width: 1055px;
+    height: 200px;
+    border-radius: 26px;
+    font-size: 20px;
+    color: #312F2F;
+    padding-top: 22px;
+    padding-left: 21px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", system-ui;
+}
+
+.contato-checkbox p{
+    color: white;
+    font-size: 20px;
+}
+
+.contato-checkbox a{
+    font-size: 20px;
+    color: white;
+}
+
+.contato-checkbox{
+    display: flex;
+    align-items: baseline;
+    margin-top: 22px;
+    margin-bottom: 27px;
+    margin-left: 64px;
+}
+
+.contato-checkbox input{
+    width: 21px;
+    height: 21px;
+}
+
+.contato-text{
+    display: flex;
+    justify-content: center;
+}
+
+.btnEnvio{
+    color: #4E4343;
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 337px;
+    height: 84px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnEnvio:hover{
+    color: #9173B0;
+}

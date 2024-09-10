@@ -1,0 +1,22 @@
+.mapa-col{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa-row{
+    margin-left: 234px;
+}
+
+.mapa-row a{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #800CB7;
+    font-size: 38px;
+    text-decoration: none;
+    margin-bottom: 91px;
+}
+
+.mapa-row a:hover{
+    text-decoration: underline;
+}

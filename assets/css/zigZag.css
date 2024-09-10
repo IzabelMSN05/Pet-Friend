@@ -1,0 +1,79 @@
+.zigZag{
+    margin: 0 59px 50px;
+    display: flex;
+    align-items: center;   
+}
+
+#cat{
+    width: 324px;
+    height: 386px;
+}
+
+#dog{
+    width: 394px;
+    height: 430px;
+}
+
+.zigText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.zig{
+    width: 660px;
+    line-height: 18px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.zig p{
+    margin: 10px 0;
+}
+
+.btnAmarelo{
+    background-color: #FFF504;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    width: 183px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 12px;
+}
+
+.btnRoxo{
+    background-color: #9173B0;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    width: 183px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 22px;
+}
+
+.zigTitulo{
+    display: flex;
+    align-items: center;
+}
+
+.zigTitulo h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.zigTitulo img{
+    max-width: 64px;
+    height: 74px;
+}
+
+

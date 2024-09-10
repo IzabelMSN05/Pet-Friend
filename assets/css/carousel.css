@@ -1,0 +1,117 @@
+.carousel{
+    margin-bottom: 50px;
+}
+
+.carousel h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.carousel p{
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.cardFlex{
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 0 29px;
+    width: 191px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -1px 5px 11px 0px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.card h3{
+    width: 121px;
+    margin-top: 16px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.card p{
+    width: 175.25px;
+    height: 44px;
+    font-size: 9px;
+    margin-top: 11px;
+    margin-bottom: 16px;
+}
+
+.card span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.card img{
+    width: 150px;
+    height: 118px;
+    margin-top: 5px;
+    object-fit: contain;
+}
+
+.btnCard{
+    display: flex;
+}
+
+.btnCard img{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    margin-top: 0;
+}
+
+.botaoAmarelo{
+    background-color: #FFF504;
+    font-size: 12px;
+    color: #4E4343;
+    text-decoration: none;
+    width: 95px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.botaoRoxo{
+    background-color: #800CB7;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    width: 95px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.btnPrev{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 18px;
+    cursor: pointer;
+}
+
+.btnNext{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    right: 18px;
+    cursor: pointer;
+}

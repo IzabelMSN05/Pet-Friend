@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/zigZag.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    <header> 
+        <img src="./assets/images/contato/hero.png" class="hero">
+        <div class="cabecalho">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/header/logo.svg" alt="Logo Pet Friend">
+                <h1>Pet Friend</h1>
+            </a>
+            <div class="menu">
+                <a href="produtos.html">Produtos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+                <div class="usuario">
+                    <img src="./assets/images/header/usuario.svg">
+                    <a href="login.html">Entre ou Cadastre-se</a>
+                </div>
+                <a href="carrinho.html" class="carrinho"><img src="./assets/images/header/carrinho.svg" alt="carrinho"></a>
+            </div>
+        </div>
+        <div class="heroText">
+            <h2>Fale Conosco</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="zigZag">
+            <div class="zigText">
+                <div class="zigTitulo">
+                    <img src="./assets/images/contato/pata-roxa.png">
+                    <h2>Fale Conosco</h2>
+                </div>
+                <p class="zig">Tem dúvidas ou sugestões para o nosso petshop? Use nosso formulário de contato! Ele é rápido e simples de preencher. 
+                    Nossa equipe está pronta para responder e ajudar com qualquer questão relacionada aos cuidados do seu pet. Preencha os dados e envie sua mensagem – estamos aqui para você e seu amigo de quatro patas!
+                </p>    
+            </div>
+            <img src="./assets/images/contato/dog.png" alt="Chihuahua" id="dog">
+        </div>
+
+       <div class="contato-flex">
+            <div class="contato">
+                <div class="contato-group">
+                    <div class="contato-input-g">
+                        <label for="name">Nome completo:</label>
+                        <input type="text" id="name" placeholder="Digite seu nome completo" required>
+                    </div>
+                </div>
+                <div class="contato-group">    
+                    <div class="contato-input">
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" placeholder="Digite seu email" required>
+                    </div> 
+                    <div class="contato-input">
+                        <label for="number">Telefone:</label>
+                        <input type="text" id="number" placeholder="Digite seu n° de telefone" required>
+                    </div>
+                </div>
+                <div class="contato-group">
+                    <div class="contato-input-g">
+                        <label for="namePet">Nome completo do animal:</label>
+                        <input type="text" id="namePet" placeholder="Digite o nome do seu animal" required>
+                    </div>
+                </div>
+                <div class="contato-group">    
+                    <div class="contato-input">
+                        <label for="typePet">Porte do animal:</label>
+                        <input type="text" id="typePet" placeholder="Digite o tipo de porte" required>
+                    </div> 
+                    <div class="contato-input">
+                        <label for="racePet">Raça do animal:</label>
+                        <input type="text" id="racePet" placeholder="Digite a raça" required>
+                    </div>
+                </div>
+                <div class="contato-group-left">
+                    <div class="contato-input">
+                        <label for="subject">Assunto:</label>
+                        <select name="subject" id="subject">
+                            <option value="consulta">Consulta Geral</option>
+                            <option value="castracao">Castração</option>
+                            <option value="vacinacao">Vacinação</option>
+                            <option value="dermatologia">Dermatologia</option>
+                            <option value="nutricao">Nutrição animal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="contato-group">
+                    <div class="contato-input">
+                        <label for="message">Mensagem:</label>
+                        <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                </div>
+                <div class="contato-checkbox">
+                    <input type="checkbox" name="privacy" id="privacy">
+                    <p>Li e concordo com a <a href="politica-de-privacidade.html">Política de Privacidade.</a></p>
+                </div>
+                <div class="contato-text">
+                    <a href="index.html" class="btnEnvio">Enviar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>  
+            <img src="./assets/images/footer/wave-footer.png" class="waves">
+        </div>
+        <img src="./assets/images/footer/seta.png" alt="Topo" class="seta">
+        <div class="menuFooter">
+            <div class="flexFooter">
+                <a href="produtos.html">Produtos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="flexFooter">
+                <a href="politica-de-privacidade.html">Política de Privacidade</a>
+                <a href="mapa-do-site">Mapa do Site</a>
+            </div>
+        </div>
+        <div class="rodape">
+            <p>&copy;Pet Friend 2024</p>  
+            <div class="redes">
+                <p>Nos siga nas Redes Sociais:</p>
+                <div class="logoFooter">
+                    <img src="./assets/images/footer/facebook-logo.svg" alt="Facebook">
+                    <img src="./assets/images/footer/instagram-logo.svg" alt="Instagram">
+                    <img src="./assets/images/footer/tiktok-logo.svg" alt="Tiktok">
+                </div>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>

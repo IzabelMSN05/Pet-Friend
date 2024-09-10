@@ -1,0 +1,132 @@
+.cadastro-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro{
+    width: 1204px;
+    height: 1204px;
+    background-color: #9173B0;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 129px;
+    padding-bottom: 47px;
+}
+
+.cadastro-group{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro-input{
+    display: flex;
+    flex-direction: column; 
+    margin: 30px 64px;
+}
+
+
+.cadastro-input label{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cadastro-input input{
+    width: 475px;
+    height: 54px;
+    border-radius: 26px;
+    border-width: 0;
+    font-size: 20px;
+    color: #312F2F;
+    margin-left: 22px;
+    margin-top: 4px;
+    font-family: "Libre Baskerville", system-ui;
+    font-weight: bold;
+}
+
+.cadastro-input-g{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.cadastro-input select{
+    background: url('../assets/images/contato/seta.svg') 93.5% 50% no-repeat;
+    width: 475px;
+    height: 54px;
+    border-radius: 26px;
+    border-width: 0;
+    font-size: 20px;
+    color: #312F2F;
+    padding-left: 21px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", system-ui;
+    background-color: white;
+}
+
+.cadastro-input option{
+    font-size: 20px;
+    color: #312F2F;
+}
+
+
+.cadastro-input-g label{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cadastro-input-g input{
+    width: 1078px;
+    height: 54px;
+    border-radius: 26px;
+    border-width: 0;
+    font-size: 20px;
+    color: #312F2F;
+    margin-left: 22px;
+    margin-top: 4px;
+    font-family: "Libre Baskerville", system-ui;
+    font-weight: bold;
+}
+
+.cadastro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-text p{
+    margin-top: 77px;
+    margin-bottom: 46px;
+    color: white;
+    font-size: 20px;
+}
+
+.cadastro-text a{
+    font-size: 20px;
+    color: white;
+}
+
+.btnCadastro{
+    color: #4E4343 !important;
+    background-color: white;
+    font-size: 26px !important;
+    text-decoration: none;
+    width: 443px;
+    height: 52px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCadastro:hover{
+    color: #9173B0;
+}

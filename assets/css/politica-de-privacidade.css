@@ -1,0 +1,19 @@
+.text{
+    margin-bottom: 50px;
+}
+
+.text h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 76px;
+}
+
+.text li{
+    font-size: 31px;
+    margin: 30px 59px;
+}
+
+.btnLi{
+    list-style: disc;
+}

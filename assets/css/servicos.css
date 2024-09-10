@@ -1,0 +1,22 @@
+.heroTextServicos{
+    position: relative;
+    left: 30%;
+    top: 95px;
+    width: fit-content;
+}
+
+.heroTextServicos h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 27px;
+    width: 913px;
+    height: 30px;
+}
+
+.heroTextServicos p{
+    font-size: 16px;
+    color: white;
+    height: 60px;
+    width: 608px;
+}

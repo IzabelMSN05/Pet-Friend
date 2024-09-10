@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header> 
+        <img src="./assets/images/login-e-cadastro/hero.png" class="hero">
+        <div class="cabecalho">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/header/logo.svg" alt="Logo Pet Friend">
+                <h1>Pet Friend</h1>
+            </a>
+            <div class="menu">
+                <a href="produtos.html">Produtos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+                <div class="usuario">
+                    <img src="./assets/images/header/usuario.svg">
+                    <a href="login.html">Entre ou Cadastre-se</a>
+                </div>
+                <a href="carrinho.html" class="carrinho"><img src="./assets/images/header/carrinho.svg" alt="carrinho"></a>
+            </div>
+        </div>
+        <div class="heroText">
+            <h3>Crie Sua Conta</h3>
+            <p>Preencha os campos abaixo para se cadastrar e começar a aproveitar todos os benefícios da Pet Friend.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="cadastro-flex">
+            <div class="cadastro">
+                <div class="cadastro-group">
+                    <div class="cadastro-input">
+                        <label for="name">Nome completo:</label>
+                        <input type="text" id="name" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="cadastro-input">
+                        <label for="address">Endereço:</label>
+                        <input type="text" id="address" placeholder="Digite seu endereço completo" required>
+                    </div>
+                </div>
+                <div class="cadastro-group">    
+                    <div class="cadastro-input">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" placeholder="Digite uma senha" required>
+                    </div> 
+                    <div class="cadastro-input">
+                        <label for="number">Telefone:</label>
+                        <input type="tel" id="number" placeholder="Digite seu n° de telefone" required>
+                    </div>
+                </div>
+                <div class="cadastro-group">    
+                    <div class="cadastro-input">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" placeholder="Digite seu email" required>
+                    </div> 
+                    <div class="cadastro-input">
+                        <label for="password2">Confirme sua senha:</label>
+                        <input type="password" id="password2" placeholder="Digite a mesma senha" required>
+                    </div>
+                </div>
+                <div class="cadastro-group">
+                    <div class="cadastro-input-g">
+                        <label for="namePet">Nome completo do animal:</label>
+                        <input type="text" id="namePet" placeholder="Digite o nome do seu animal" required>
+                    </div>
+                </div>
+                <div class="cadastro-group">    
+                    <div class="cadastro-input">
+                        <label for="typePet">Porte do animal:</label>
+                        <input type="text" id="typePet" placeholder="Digite o tipo de porte" required>
+                    </div> 
+                    <div class="cadastro-input">
+                        <label for="racePet">Raça do animal:</label>
+                        <input type="text" id="racePet" placeholder="Digite a raça" required>
+                    </div>
+                </div>
+                <div class="cadastro-group">    
+                    <div class="cadastro-input">
+                        <label for="vacinado">O pet já foi vacinado?</label>
+                        <select name="vacinado" id="vacinado">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+                    <div class="cadastro-input">
+                        <label for="castrado">O pet é castrado?</label>
+                        <select name="castrado" id="castrado">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cadastro-text">
+                    <p>Já possui conta? <a href="login.html">Entre aqui!</a></p>
+                    <a href="index.html" class="btnCadastro">Entre</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>  
+            <img src="./assets/images/footer/wave-footer.png" class="waves">
+        </div>
+        <img src="./assets/images/footer/seta.png" alt="Topo" class="seta">
+        <div class="menuFooter">
+            <div class="flexFooter">
+                <a href="produtos.html">Produtos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="flexFooter">
+                <a href="politica-de-privacidade.html">Política de Privacidade</a>
+                <a href="mapa-do-site">Mapa do Site</a>
+            </div>
+        </div>
+        <div class="rodape">
+            <p>&copy;Pet Friend 2024</p>  
+            <div class="redes">
+                <p>Nos siga nas Redes Sociais:</p>
+                <div class="logoFooter">
+                    <img src="./assets/images/footer/facebook-logo.svg" alt="Facebook">
+                    <img src="./assets/images/footer/instagram-logo.svg" alt="Instagram">
+                    <img src="./assets/images/footer/tiktok-logo.svg" alt="Tiktok">
+                </div>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>
