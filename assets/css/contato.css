@@ -83,7 +83,7 @@ select{
 }
 
 .contato-input select{
-    background: url('../assets/images/contato/seta.svg') 93.5% 50% no-repeat;
+    background: url('../images/contato/seta.svg') 93.5% 50% no-repeat;
     width: 455px;
     height: 54px;
     border-radius: 26px;
@@ -154,6 +154,7 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
 .btnEnvio:hover{

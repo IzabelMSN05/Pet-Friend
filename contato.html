@@ -53,65 +53,67 @@
         </div>
 
        <div class="contato-flex">
-            <div class="contato">
-                <div class="contato-group">
-                    <div class="contato-input-g">
-                        <label for="name">Nome completo:</label>
-                        <input type="text" id="name" placeholder="Digite seu nome completo" required>
+            <form class="contato" action="https://formsubmit.co/izabelmoraessilvado@gmail.com" method="POST">
+                <fieldset>
+                    <div class="contato-group">
+                        <div class="contato-input-g">
+                            <label for="name">Nome completo:</label>
+                            <input type="text" id="name" placeholder="Digite seu nome completo" required>
+                        </div>
                     </div>
-                </div>
-                <div class="contato-group">    
-                    <div class="contato-input">
-                        <label for="email">E-mail:</label>
-                        <input type="text" id="email" placeholder="Digite seu email" required>
-                    </div> 
-                    <div class="contato-input">
-                        <label for="number">Telefone:</label>
-                        <input type="text" id="number" placeholder="Digite seu n° de telefone" required>
+                    <div class="contato-group">    
+                        <div class="contato-input">
+                            <label for="email">E-mail:</label>
+                            <input type="text" id="email" placeholder="Digite seu email" required>
+                        </div> 
+                        <div class="contato-input">
+                            <label for="number">Telefone:</label>
+                            <input type="tel" id="number" pattern="[0-9]{10}" placeholder="Digite seu n° de telefone" required>
+                        </div>
                     </div>
-                </div>
-                <div class="contato-group">
-                    <div class="contato-input-g">
-                        <label for="namePet">Nome completo do animal:</label>
-                        <input type="text" id="namePet" placeholder="Digite o nome do seu animal" required>
+                    <div class="contato-group">
+                        <div class="contato-input-g">
+                            <label for="namePet">Nome completo do animal:</label>
+                            <input type="text" id="namePet" placeholder="Digite o nome do seu animal" required>
+                        </div>
                     </div>
-                </div>
-                <div class="contato-group">    
-                    <div class="contato-input">
-                        <label for="typePet">Porte do animal:</label>
-                        <input type="text" id="typePet" placeholder="Digite o tipo de porte" required>
-                    </div> 
-                    <div class="contato-input">
-                        <label for="racePet">Raça do animal:</label>
-                        <input type="text" id="racePet" placeholder="Digite a raça" required>
+                    <div class="contato-group">    
+                        <div class="contato-input">
+                            <label for="typePet">Porte do animal:</label>
+                            <input type="text" id="typePet" placeholder="Digite o tipo de porte" required>
+                        </div> 
+                        <div class="contato-input">
+                            <label for="racePet">Raça do animal:</label>
+                            <input type="text" id="racePet" placeholder="Digite a raça" required>
+                        </div>
                     </div>
-                </div>
-                <div class="contato-group-left">
-                    <div class="contato-input">
-                        <label for="subject">Assunto:</label>
-                        <select name="subject" id="subject">
-                            <option value="consulta">Consulta Geral</option>
-                            <option value="castracao">Castração</option>
-                            <option value="vacinacao">Vacinação</option>
-                            <option value="dermatologia">Dermatologia</option>
-                            <option value="nutricao">Nutrição animal</option>
-                        </select>
+                    <div class="contato-group-left">
+                        <div class="contato-input">
+                            <label for="subject">Assunto:</label>
+                            <select name="subject" id="subject">
+                                <option value="consulta">Consulta Geral</option>
+                                <option value="castracao">Castração</option>
+                                <option value="vacinacao">Vacinação</option>
+                                <option value="dermatologia">Dermatologia</option>
+                                <option value="nutricao">Nutrição animal</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="contato-group">
-                    <div class="contato-input">
-                        <label for="message">Mensagem:</label>
-                        <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+                    <div class="contato-group">
+                        <div class="contato-input">
+                            <label for="message">Mensagem:</label>
+                            <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="contato-checkbox">
-                    <input type="checkbox" name="privacy" id="privacy">
-                    <p>Li e concordo com a <a href="politica-de-privacidade.html">Política de Privacidade.</a></p>
-                </div>
-                <div class="contato-text">
-                    <a href="index.html" class="btnEnvio">Enviar</a>
-                </div>
-            </div>
+                    <div class="contato-checkbox">
+                        <input type="checkbox" name="privacy" id="privacy">
+                        <p>Li e concordo com a <a href="politica-de-privacidade.html">Política de Privacidade.</a></p>
+                    </div>
+                    <div class="contato-text">
+                        <button type="submit" class="btnEnvio">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
         </div>
     </main>
 
@@ -143,5 +145,6 @@
             </div> 
         </div>
     </footer>
+    <script type="text/javascript" src="./assets/js/seta.js"></script>
 </body>
 </html>
